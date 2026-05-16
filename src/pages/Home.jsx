@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom'
+
+import lessons from '../data/lessons'
 import '../App.css'
 
 export default function Home() {
-  const lessons = [1, 2, 3, 4, 5]
-
   return (
     <div className="app">
       <header className="hero">
         <h1>Learn Dutch 🇳🇱</h1>
-        <p>Interactive Dutch lessons for beginners</p>
+
+        <p>
+          Interactive Dutch lessons
+        </p>
       </header>
 
       <section className="lesson-section">
@@ -17,12 +20,15 @@ export default function Home() {
         <div className="lesson-grid">
           {lessons.map((lesson) => (
             <Link
-              key={lesson}
-              to={`/lesson/${lesson}`}
+              key={lesson.id}
+              to={`/lesson/${lesson.id}`}
               className="lesson-card"
             >
-              <h3>Lesson {lesson}</h3>
-              <p>Start learning</p>
+              <h3>
+                Lesson {lesson.id}
+              </h3>
+
+              <p>{lesson.title}</p>
             </Link>
           ))}
         </div>

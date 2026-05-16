@@ -56,6 +56,11 @@ body {
   color: #111;
 }
 
+.lesson-card h1 {
+  color: #000;
+}
+
+
 .lesson-card h3 {
   color: #000;
 }
