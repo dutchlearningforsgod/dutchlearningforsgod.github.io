@@ -51,3 +51,50 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.lesson-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lesson-card {
+  text-decoration: none;
+  color: black;
+}
+
+.lesson-page {
+  padding: 40px;
+  text-align: center;
+}
+
+.quiz-card {
+  background: white;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.option-button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.option-button:hover {
+  opacity: 0.9;
+}
