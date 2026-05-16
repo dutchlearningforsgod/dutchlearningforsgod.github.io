@@ -51,7 +51,19 @@ body {
   padding: 25px;
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    /* FIX: better text visibility */
+  color: #111;
 }
+
+.lesson-card h3 {
+  color: #000;
+}
+
+.lesson-card p {
+  color: #111;
+}
+
 
 .lesson-grid {
   display: flex;
@@ -98,4 +110,31 @@ body {
 
 .option-button:hover {
   opacity: 0.9;
+}
+
+
+/* quiz buttons */
+.option-button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  background: #2563eb;
+  color: white;
+  transition: 0.2s;
+}
+
+.option-button:hover {
+  opacity: 0.85;
+}
+
+/* feedback styles */
+.correct {
+  background: #16a34a !important; /* green */
+}
+
+.wrong {
+  background: #dc2626 !important; /* red */
 }

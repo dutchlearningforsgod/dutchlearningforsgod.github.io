@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../App.css'
 
 export default function Lesson1() {
-  const questions = [
+  const initialQuestions = [
     {
       word: 'Hallo',
       correct: 'Hello',
@@ -21,22 +21,51 @@ export default function Lesson1() {
     }
   ]
 
-  const [currentQuestion, setCurrentQuestion] = useState(0)
-  const [score, setScore] = useState(0)
+  const [queue, setQueue] = useState(initialQuestions)
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [feedback, setFeedback] = useState(null)
 
-  const question = questions[currentQuestion]
+  const question = queue[currentIndex]
 
   function handleAnswer(option) {
-    if (option === question.correct) {
-      setScore(score + 1)
-    }
+    if (!question) return
 
-    if (currentQuestion + 1 < questions.length) {
-      setCurrentQuestion(currentQuestion + 1)
+    const isCorrect = option === question.correct
+
+    if (isCorrect) {
+      setFeedback('correct')
+
+      setTimeout(() => {
+        const next = currentIndex + 1
+        setFeedback(null)
+
+        if (next < queue.length) {
+          setCurrentIndex(next)
+        } else {
+          alert('Lesson completed! 🎉')
+        }
+      }, 700)
+
     } else {
-      alert(`Finished! Score: ${score + 1}/${questions.length}`)
+      setFeedback('wrong')
+
+      // move question to end of queue (retry later)
+      setTimeout(() => {
+        setFeedback(null)
+
+        setQueue(prev => {
+          const updated = [...prev]
+          const wrongQ = updated.splice(currentIndex, 1)[0]
+          updated.push(wrongQ)
+          return updated
+        })
+
+        // stay on same index (new question slides in)
+      }, 700)
     }
   }
+
+  if (!question) return <div>Loading...</div>
 
   return (
     <div className="lesson-page">
@@ -45,24 +74,33 @@ export default function Lesson1() {
       <h1>Lesson 1 — Greetings</h1>
 
       <div className="quiz-card">
-        <h2>{question.word}</h2>
+        <h2 style={{ color: '#000' }}>{question.word}</h2>
+
+        {feedback && (
+          <h3 style={{
+            color: feedback === 'correct' ? 'green' : 'red'
+          }}>
+            {feedback === 'correct' ? 'Correct ✅' : 'Wrong ❌'}
+          </h3>
+        )}
 
         <div className="options">
           {question.options.map((option) => (
             <button
               key={option}
-              className="option-button"
+              className={`option-button ${
+                feedback === 'correct' && option === question.correct
+                  ? 'correct'
+                  : ''
+              }`}
               onClick={() => handleAnswer(option)}
+              disabled={feedback !== null}
             >
               {option}
             </button>
           ))}
         </div>
       </div>
-
-      <p>
-        Question {currentQuestion + 1} / {questions.length}
-      </p>
     </div>
   )
 }
