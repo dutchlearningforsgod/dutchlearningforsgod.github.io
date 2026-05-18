@@ -13,8 +13,8 @@ function MatchingQuiz({ question, onComplete }) {
 
   const [selectedDutch,   setSelectedDutch]   = useState(null)
   const [selectedEnglish, setSelectedEnglish] = useState(null)
-  const [matched,  setMatched]  = useState([])  // matched dutch words
-  const [flashing, setFlashing] = useState(null) // 'correct' | 'wrong'
+  const [matched,  setMatched]  = useState([])
+  const [flashing, setFlashing] = useState(null)
 
   useEffect(() => {
     if (!selectedDutch || !selectedEnglish) return
@@ -39,17 +39,11 @@ function MatchingQuiz({ question, onComplete }) {
   }, [selectedDutch, selectedEnglish])
 
   function getStyle(word, side) {
-    const isSelected = side === 'dutch'
-      ? selectedDutch === word
-      : selectedEnglish === word
+    const isSelected = side === 'dutch' ? selectedDutch === word : selectedEnglish === word
+    const dutchKey   = side === 'dutch' ? word : question.pairs.find(p => p.english === word)?.dutch
+    const isMatched  = matched.includes(dutchKey)
 
-    const dutchKey = side === 'dutch'
-      ? word
-      : question.pairs.find(p => p.english === word)?.dutch
-
-    const isMatched = matched.includes(dutchKey)
-
-    if (isMatched)                          return { background: '#16a34a', color: 'white', opacity: 0.55, cursor: 'default' }
+    if (isMatched)                            return { background: '#16a34a', color: 'white', opacity: 0.55, cursor: 'default' }
     if (isSelected && flashing === 'correct') return { background: '#16a34a', color: 'white' }
     if (isSelected && flashing === 'wrong')   return { background: '#dc2626', color: 'white' }
     if (isSelected)                           return { background: '#1d4ed8', color: 'white' }
@@ -157,21 +151,92 @@ function ListeningQuiz({ question, onResult }) {
 }
 
 // ------------------------------------
+// Fill-in-the-blank sub-component
+// ------------------------------------
+function FillBlankQuiz({ question, onResult }) {
+  const shuffledOptions = useMemo(
+    () => shuffleArray(question.options),
+    [question]
+  )
+
+  const [chosen,   setChosen]   = useState(null)
+  const [revealed, setRevealed] = useState(false)
+
+  function handlePick(option) {
+    if (revealed) return
+    const isCorrect = option === question.correct
+    setChosen(option)
+    setRevealed(true)
+    setTimeout(() => onResult(isCorrect), 900)
+  }
+
+  function optionStyle(option) {
+    if (!revealed) return {}
+    if (option === question.correct) return { background: '#16a34a', color: 'white' }
+    if (option === chosen)           return { background: '#dc2626', color: 'white' }
+    return { opacity: 0.45 }
+  }
+
+  return (
+    <div>
+      <p style={{
+        fontSize: '1.15rem',
+        lineHeight: '2',
+        color: '#111',
+        margin: '0 0 28px',
+        textAlign: 'left'
+      }}>
+        {question.before}{' '}
+        <span style={{
+          display: 'inline-block',
+          minWidth: '110px',
+          borderBottom: '3px solid #2563eb',
+          textAlign: 'center',
+          fontWeight: 'bold',
+          color: revealed ? '#2563eb' : 'transparent',
+          transition: 'color 0.3s'
+        }}>
+          {revealed ? question.correct : '\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'}
+        </span>
+        {' '}{question.after}
+      </p>
+
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+        {shuffledOptions.map((option, i) => (
+          <button
+            key={option}
+            className="option-button"
+            style={optionStyle(option)}
+            onClick={() => handlePick(option)}
+            disabled={revealed}
+          >
+            <span style={{ opacity: 0.6, marginRight: '6px', fontSize: '0.85rem' }}>
+              {['A', 'B', 'C', 'D'][i]}
+            </span>
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+// ------------------------------------
 // Main Quiz component
 // ------------------------------------
 export default function Quiz({ lesson }) {
-  const [queue,         setQueue]         = useState(lesson.questions)
-  const [currentIndex,  setCurrentIndex]  = useState(0)
-  const [feedback,      setFeedback]      = useState(null)
+  const [queue,          setQueue]          = useState(lesson.questions)
+  const [currentIndex,   setCurrentIndex]   = useState(0)
+  const [feedback,       setFeedback]       = useState(null)
   const [lastWasCorrect, setLastWasCorrect] = useState(false)
-  const [input,         setInput]         = useState('')
-  const [selectedWords, setSelectedWords] = useState([])
+  const [input,          setInput]          = useState('')
+  const [selectedWords,  setSelectedWords]  = useState([])
   const [stats, setStats] = useState({ correct: 0, wrong: 0 })
 
   const isFinished = queue.length === 0
   const question   = queue[currentIndex]
 
-  // Hooks must always run — safe-guard with !question checks
+  // Hooks must always run before any early return
   const shuffledOptions = useMemo(() => {
     if (!question || lesson.type !== 'multiple-choice') return []
     return shuffleArray(question.options)
@@ -183,11 +248,18 @@ export default function Quiz({ lesson }) {
   }, [question])
 
   if (isFinished) {
+    const total = stats.correct + stats.wrong
+    const pct   = total > 0 ? Math.round((stats.correct / total) * 100) : 0
     return (
       <div className="quiz-card">
         <h2 style={{ color: '#000' }}>Lesson Complete 🎉</h2>
         <p style={{ color: '#000' }}>Correct: {stats.correct}</p>
         <p style={{ color: '#000' }}>Wrong: {stats.wrong}</p>
+        {lesson.type === 'fill-in-the-blank' && (
+          <p style={{ color: '#000', fontWeight: 'bold', fontSize: '1.2rem' }}>
+            Score: {pct}% {pct >= 80 ? '⭐' : pct >= 60 ? '👍' : '📚'}
+          </p>
+        )}
       </div>
     )
   }
@@ -243,21 +315,51 @@ export default function Quiz({ lesson }) {
     handleResult(selectedWords.join(' ') === question.correct)
   }
 
-  // Matching renders its own card (no shared feedback screen needed;
-  // it handles inline correct/wrong flashing itself)
+  // Matching: inline flashing, no separate feedback card
   if (lesson.type === 'matching' && !feedback) {
     return (
       <div className="quiz-card">
         <h2 style={{ color: '#000' }}>Match the pairs</h2>
-
         <MatchingQuiz
           key={currentIndex}
           question={question}
           onComplete={() => handleResult(true)}
         />
-
         <p style={{ color: '#000', marginTop: '16px' }}>
-          Remaining: {queue.length} | Correct: {stats.correct} | Wrong: {stats.wrong}
+          Round {stats.correct + stats.wrong + 1} of {lesson.questions.length} |
+          Correct: {stats.correct} | Wrong: {stats.wrong}
+        </p>
+      </div>
+    )
+  }
+
+  // Fill-in-the-blank: inline flashing, auto-advances, no feedback card
+  if (lesson.type === 'fill-in-the-blank' && !feedback) {
+    return (
+      <div className="quiz-card">
+        <h2 style={{ color: '#000' }}>Fill in the blank</h2>
+
+        <p style={{ color: '#555', fontSize: '0.9rem', marginBottom: '8px' }}>
+          Question {stats.correct + stats.wrong + 1} of {lesson.questions.length}
+        </p>
+
+        <FillBlankQuiz
+          key={question.before}
+          question={question}
+          onResult={(isCorrect) => {
+            setStats(prev => ({
+              correct: prev.correct + (isCorrect ? 1 : 0),
+              wrong:   prev.wrong   + (isCorrect ? 0 : 1)
+            }))
+            let updated = [...queue]
+            updated.splice(currentIndex, 1)
+            setQueue(updated)
+            setCurrentIndex(0)
+          }}
+        />
+
+        <p style={{ color: '#000', marginTop: '20px' }}>
+          Correct: {stats.correct} | Wrong: {stats.wrong}
         </p>
       </div>
     )
