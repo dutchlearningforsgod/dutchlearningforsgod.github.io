@@ -1786,352 +1786,352 @@ const lessons = [
   {
     "id": 9,
     "title": "Typing Practice",
-    "description": "See the Dutch word — type the English translation",
+    "description": "See the English word — type the Dutch translation",
     "type": "typing",
     "questions": [
       {
-        "question": "de agenda",
-        "correct": "the agenda"
+        "question": "the agenda",
+        "correct": "de agenda"
       },
       {
-        "question": "de aanbieding",
-        "correct": "the special offer"
+        "question": "the special offer",
+        "correct": "de aanbieding"
       },
       {
-        "question": "de arm",
-        "correct": "the arm"
+        "question": "the arm",
+        "correct": "de arm"
       },
       {
-        "question": "het bed",
-        "correct": "the bed"
+        "question": "the bed",
+        "correct": "het bed"
       },
       {
-        "question": "bekend",
-        "correct": "familiar"
+        "question": "familiar",
+        "correct": "bekend"
       },
       {
-        "question": "bewolkt",
-        "correct": "cloudy"
+        "question": "cloudy",
+        "correct": "bewolkt"
       },
       {
-        "question": "binnen",
-        "correct": "inside"
+        "question": "inside",
+        "correct": "binnen"
       },
       {
-        "question": "brengt rond",
-        "correct": "delivers"
+        "question": "delivers",
+        "correct": "brengt rond"
       },
       {
-        "question": "het brood",
-        "correct": "the bread"
+        "question": "the bread",
+        "correct": "het brood"
       },
       {
-        "question": "buiten",
-        "correct": "outside"
+        "question": "outside",
+        "correct": "buiten"
       },
       {
-        "question": "de bus",
-        "correct": "the bus"
+        "question": "the bus",
+        "correct": "de bus"
       },
       {
-        "question": "de bushalte",
-        "correct": "the bus stop"
+        "question": "the bus stop",
+        "correct": "de bushalte"
       },
       {
-        "question": "in de buurt",
-        "correct": "in the neighbourhood"
+        "question": "in the neighbourhood",
+        "correct": "in de buurt"
       },
       {
-        "question": "de deur",
-        "correct": "the door"
+        "question": "the door",
+        "correct": "de deur"
       },
       {
-        "question": "dicht",
-        "correct": "closed"
+        "question": "closed",
+        "correct": "dicht"
       },
       {
-        "question": "dichtbij",
-        "correct": "near"
+        "question": "near",
+        "correct": "dichtbij"
       },
       {
-        "question": "duizend",
-        "correct": "thousand"
+        "question": "thousand",
+        "correct": "duizend"
       },
       {
-        "question": "dus",
-        "correct": "so / therefore"
+        "question": "so / therefore",
+        "correct": "dus"
       },
       {
-        "question": "echt",
-        "correct": "really"
+        "question": "really",
+        "correct": "echt"
       },
       {
-        "question": "de fiets",
-        "correct": "the bicycle"
+        "question": "the bicycle",
+        "correct": "de fiets"
       },
       {
-        "question": "fietsen",
-        "correct": "to cycle"
+        "question": "to cycle",
+        "correct": "fietsen"
       },
       {
-        "question": "geen dank",
-        "correct": "my pleasure"
+        "question": "my pleasure",
+        "correct": "geen dank"
       },
       {
-        "question": "gelukkig",
-        "correct": "thankfully"
+        "question": "thankfully",
+        "correct": "gelukkig"
       },
       {
-        "question": "gisteren",
-        "correct": "yesterday"
+        "question": "yesterday",
+        "correct": "gisteren"
       },
       {
-        "question": "groot",
-        "correct": "big"
+        "question": "big",
+        "correct": "groot"
       },
       {
-        "question": "heerlijk",
-        "correct": "delightful"
+        "question": "delightful",
+        "correct": "heerlijk"
       },
       {
-        "question": "helpt",
-        "correct": "helps"
+        "question": "helps",
+        "correct": "helpt"
       },
       {
-        "question": "de herfst",
-        "correct": "the autumn"
+        "question": "the autumn",
+        "correct": "de herfst"
       },
       {
-        "question": "de hoek",
-        "correct": "the corner"
+        "question": "the corner",
+        "correct": "de hoek"
       },
       {
-        "question": "hoog",
-        "correct": "high"
+        "question": "high",
+        "correct": "hoog"
       },
       {
-        "question": "houdt van",
-        "correct": "loves"
+        "question": "loves",
+        "correct": "houdt van"
       },
       {
-        "question": "het ijs",
-        "correct": "the ice"
+        "question": "the ice",
+        "correct": "het ijs"
       },
       {
-        "question": "het jaar",
-        "correct": "the year"
+        "question": "the year",
+        "correct": "het jaar"
       },
       {
-        "question": "jarig",
-        "correct": "to have a birthday"
+        "question": "to have a birthday",
+        "correct": "jarig"
       },
       {
-        "question": "jazeker",
-        "correct": "certainly"
+        "question": "certainly",
+        "correct": "jazeker"
       },
       {
-        "question": "de jongen",
-        "correct": "the boy"
+        "question": "the boy",
+        "correct": "de jongen"
       },
       {
-        "question": "koud",
-        "correct": "cold"
+        "question": "cold",
+        "correct": "koud"
       },
       {
-        "question": "de krant",
-        "correct": "the newspaper"
+        "question": "the newspaper",
+        "correct": "de krant"
       },
       {
-        "question": "de lente",
-        "correct": "the spring"
+        "question": "the spring",
+        "correct": "de lente"
       },
       {
-        "question": "links",
-        "correct": "left"
+        "question": "left",
+        "correct": "links"
       },
       {
-        "question": "loopt",
-        "correct": "walks"
+        "question": "walks",
+        "correct": "loopt"
       },
       {
-        "question": "de maand",
-        "correct": "the month"
+        "question": "the month",
+        "correct": "de maand"
       },
       {
-        "question": "het meisje",
-        "correct": "the girl"
+        "question": "the girl",
+        "correct": "het meisje"
       },
       {
-        "question": "de mensen",
-        "correct": "the people"
+        "question": "the people",
+        "correct": "de mensen"
       },
       {
-        "question": "mooi",
-        "correct": "beautiful"
+        "question": "beautiful",
+        "correct": "mooi"
       },
       {
-        "question": "na",
-        "correct": "after"
+        "question": "after",
+        "correct": "na"
       },
       {
-        "question": "de narcis",
-        "correct": "the narcissus"
+        "question": "the narcissus",
+        "correct": "de narcis"
       },
       {
-        "question": "het noorden",
-        "correct": "the north"
+        "question": "the north",
+        "correct": "het noorden"
       },
       {
-        "question": "de ochtend",
-        "correct": "the morning"
+        "question": "the morning",
+        "correct": "de ochtend"
       },
       {
-        "question": "het oosten",
-        "correct": "the east"
+        "question": "the east",
+        "correct": "het oosten"
       },
       {
         "question": "open",
         "correct": "open"
       },
       {
-        "question": "ouder",
-        "correct": "older"
+        "question": "older",
+        "correct": "ouder"
       },
       {
-        "question": "de overkant",
-        "correct": "the other side"
+        "question": "the other side",
+        "correct": "de overkant"
       },
       {
-        "question": "pardon",
-        "correct": "excuse me"
+        "question": "excuse me",
+        "correct": "pardon"
       },
       {
-        "question": "het postkantoor",
-        "correct": "the post office"
+        "question": "the post office",
+        "correct": "het postkantoor"
       },
       {
-        "question": "rechtdoor",
-        "correct": "straight on"
+        "question": "straight on",
+        "correct": "rechtdoor"
       },
       {
-        "question": "rechts",
-        "correct": "right"
+        "question": "right",
+        "correct": "rechts"
       },
       {
-        "question": "rechtsaf",
-        "correct": "turn right"
+        "question": "turn right",
+        "correct": "rechtsaf"
       },
       {
-        "question": "de regen",
-        "correct": "the rain"
+        "question": "the rain",
+        "correct": "de regen"
       },
       {
-        "question": "het seizoen",
-        "correct": "the season"
+        "question": "the season",
+        "correct": "het seizoen"
       },
       {
-        "question": "slapen",
-        "correct": "to sleep"
+        "question": "to sleep",
+        "correct": "slapen"
       },
       {
-        "question": "slecht",
-        "correct": "bad"
+        "question": "bad",
+        "correct": "slecht"
       },
       {
-        "question": "sneeuwt",
-        "correct": "snows"
+        "question": "snows",
+        "correct": "sneeuwt"
       },
       {
-        "question": "de soep",
-        "correct": "the soup"
+        "question": "the soup",
+        "correct": "de soep"
       },
       {
-        "question": "soms",
-        "correct": "sometimes"
+        "question": "sometimes",
+        "correct": "soms"
       },
       {
-        "question": "de stoel",
-        "correct": "the chair"
+        "question": "the chair",
+        "correct": "de stoel"
       },
       {
-        "question": "het strand",
-        "correct": "the beach"
+        "question": "the beach",
+        "correct": "het strand"
       },
       {
-        "question": "tussen",
-        "correct": "in between"
+        "question": "in between",
+        "correct": "tussen"
       },
       {
-        "question": "ver",
-        "correct": "far"
+        "question": "far",
+        "correct": "ver"
       },
       {
-        "question": "de verdieping",
-        "correct": "the floor"
+        "question": "the floor",
+        "correct": "de verdieping"
       },
       {
-        "question": "verkoopt",
-        "correct": "sells"
+        "question": "sells",
+        "correct": "verkoopt"
       },
       {
-        "question": "de vriend",
-        "correct": "the friend (male)"
+        "question": "the friend (male)",
+        "correct": "de vriend"
       },
       {
-        "question": "de vriendin",
-        "correct": "the friend (female)"
+        "question": "the friend (female)",
+        "correct": "de vriendin"
       },
       {
-        "question": "vroeg",
-        "correct": "early"
+        "question": "early",
+        "correct": "vroeg"
       },
       {
-        "question": "waarheen",
-        "correct": "where to"
+        "question": "where to",
+        "correct": "waarheen"
       },
       {
         "question": "warm",
         "correct": "warm"
       },
       {
-        "question": "het weer",
-        "correct": "the weather"
+        "question": "the weather",
+        "correct": "het weer"
       },
       {
-        "question": "het westen",
-        "correct": "the west"
+        "question": "the west",
+        "correct": "het westen"
       },
       {
-        "question": "de wind",
-        "correct": "the wind"
+        "question": "the wind",
+        "correct": "de wind"
       },
       {
-        "question": "de winter",
-        "correct": "the winter"
+        "question": "the winter",
+        "correct": "de winter"
       },
       {
-        "question": "wordt",
-        "correct": "becomes"
+        "question": "becomes",
+        "correct": "wordt"
       },
       {
-        "question": "de zee",
-        "correct": "the sea"
+        "question": "the sea",
+        "correct": "de zee"
       },
       {
-        "question": "de zomer",
-        "correct": "the summer"
+        "question": "the summer",
+        "correct": "de zomer"
       },
       {
-        "question": "de zon",
-        "correct": "the sun"
+        "question": "the sun",
+        "correct": "de zon"
       },
       {
-        "question": "zonder",
-        "correct": "without"
+        "question": "without",
+        "correct": "zonder"
       },
       {
-        "question": "het zuiden",
-        "correct": "the south"
+        "question": "the south",
+        "correct": "het zuiden"
       }
     ]
   },
