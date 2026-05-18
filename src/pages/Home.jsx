@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="app">
       <header className="hero">
-        <h1>Learn Dutch 🇳🇱</h1>
+        <h1>Learn Dutch</h1>
 
         <p>
           Interactive Dutch lessons

@@ -88,7 +88,7 @@ const lessons = [
   },
   {
   id: 3,
-  title: 'Sentence Building',
+  title: 'Sentences',
   description: 'Build correct Dutch sentences',
 
   type: 'sentence-builder',
