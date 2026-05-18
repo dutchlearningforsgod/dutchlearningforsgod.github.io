@@ -24,7 +24,7 @@ export default function LessonPage() {
 
       <p>{lesson.description}</p>
 
-      <Quiz questions={lesson.questions} />
+      <Quiz lesson={lesson} />
     </div>
   )
 }
