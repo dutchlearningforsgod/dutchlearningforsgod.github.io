@@ -2,56 +2,56 @@ const lessons = [
   {
     "id": 1,
     "title": "Dutch → English: Words 1–20",
-    "description": "Translate Dutch words to English (de agenda → de fiets)",
+    "description": "Translate Dutch to English (de agenda → de fiets)",
     "type": "multiple-choice",
     "questions": [
       {
         "question": "de agenda",
-        "correct": "agenda",
+        "correct": "the agenda",
         "options": [
-          "loves",
-          "narcissus",
-          "outside",
-          "agenda"
+          "where to",
+          "the boy",
+          "so / therefore",
+          "the agenda"
         ]
       },
       {
         "question": "de aanbieding",
-        "correct": "special offer",
+        "correct": "the special offer",
         "options": [
-          "familiar",
-          "cold",
-          "season",
-          "special offer"
+          "after",
+          "snows",
+          "the bed",
+          "the special offer"
         ]
       },
       {
         "question": "de arm",
-        "correct": "arm",
+        "correct": "the arm",
         "options": [
-          "friend (male)",
-          "left",
-          "sleep",
-          "arm"
+          "high",
+          "the bus stop",
+          "to have a birthday",
+          "the arm"
         ]
       },
       {
         "question": "het bed",
-        "correct": "bed",
+        "correct": "the bed",
         "options": [
-          "chair",
-          "far",
-          "sun",
-          "bed"
+          "the bus stop",
+          "early",
+          "really",
+          "the bed"
         ]
       },
       {
         "question": "bekend",
         "correct": "familiar",
         "options": [
-          "floor",
+          "the floor",
           "excuse me",
-          "arm",
+          "the arm",
           "familiar"
         ]
       },
@@ -70,7 +70,7 @@ const lessons = [
         "correct": "inside",
         "options": [
           "early",
-          "year",
+          "the year",
           "the south",
           "inside"
         ]
@@ -79,57 +79,57 @@ const lessons = [
         "question": "brengt rond",
         "correct": "delivers",
         "options": [
-          "ride a bicycle",
+          "to cycle",
           "near",
-          "sun",
+          "the sun",
           "delivers"
         ]
       },
       {
         "question": "het brood",
-        "correct": "bread",
+        "correct": "the bread",
         "options": [
-          "season",
-          "becomes",
-          "snows",
-          "bread"
+          "the friend (male)",
+          "after",
+          "right",
+          "the bread"
         ]
       },
       {
         "question": "buiten",
         "correct": "outside",
         "options": [
-          "sea",
-          "summer",
-          "special offer",
+          "the sea",
+          "the summer",
+          "the special offer",
           "outside"
         ]
       },
       {
         "question": "de bus",
-        "correct": "bus",
+        "correct": "the bus",
         "options": [
-          "bus stop",
-          "far",
-          "bad",
-          "bus"
+          "the soup",
+          "the sea",
+          "the narcissus",
+          "the bus"
         ]
       },
       {
         "question": "de bushalte",
-        "correct": "bus stop",
+        "correct": "the bus stop",
         "options": [
-          "beach",
-          "sleep",
-          "outside",
-          "bus stop"
+          "beautiful",
+          "the east",
+          "where to",
+          "the bus stop"
         ]
       },
       {
         "question": "in de buurt",
         "correct": "in the neighbourhood",
         "options": [
-          "newspaper",
+          "the newspaper",
           "after",
           "familiar",
           "in the neighbourhood"
@@ -137,21 +137,21 @@ const lessons = [
       },
       {
         "question": "de deur",
-        "correct": "door",
+        "correct": "the door",
         "options": [
-          "post office",
-          "season",
-          "right",
-          "door"
+          "the sun",
+          "the girl",
+          "the bread",
+          "the door"
         ]
       },
       {
         "question": "dicht",
         "correct": "closed",
         "options": [
-          "sea",
+          "the sea",
           "sells",
-          "bed",
+          "the bed",
           "closed"
         ]
       },
@@ -159,8 +159,8 @@ const lessons = [
         "question": "dichtbij",
         "correct": "near",
         "options": [
-          "corner",
-          "morning",
+          "the corner",
+          "the morning",
           "the east",
           "near"
         ]
@@ -170,8 +170,8 @@ const lessons = [
         "correct": "thousand",
         "options": [
           "thankfully",
-          "weather",
-          "beach",
+          "the weather",
+          "the beach",
           "thousand"
         ]
       },
@@ -181,7 +181,7 @@ const lessons = [
         "options": [
           "the other side",
           "the south",
-          "sun",
+          "the sun",
           "so / therefore"
         ]
       },
@@ -189,20 +189,20 @@ const lessons = [
         "question": "echt",
         "correct": "really",
         "options": [
-          "wind",
+          "the wind",
           "high",
-          "door",
+          "the door",
           "really"
         ]
       },
       {
         "question": "de fiets",
-        "correct": "bicycle",
+        "correct": "the bicycle",
         "options": [
-          "early",
-          "cloudy",
-          "agenda",
-          "bicycle"
+          "near",
+          "outside",
+          "the west",
+          "the bicycle"
         ]
       }
     ]
@@ -210,25 +210,25 @@ const lessons = [
   {
     "id": 2,
     "title": "Dutch → English: Words 21–40",
-    "description": "Translate Dutch words to English (fietsen → links)",
+    "description": "Translate Dutch to English (fietsen → links)",
     "type": "multiple-choice",
     "questions": [
       {
         "question": "fietsen",
-        "correct": "ride a bicycle",
+        "correct": "to cycle",
         "options": [
-          "delivers",
-          "familiar",
-          "girl",
-          "ride a bicycle"
+          "the weather",
+          "the chair",
+          "the year",
+          "to cycle"
         ]
       },
       {
         "question": "geen dank",
         "correct": "my pleasure",
         "options": [
-          "sleep",
-          "floor",
+          "to sleep",
+          "the floor",
           "sells",
           "my pleasure"
         ]
@@ -238,8 +238,8 @@ const lessons = [
         "correct": "thankfully",
         "options": [
           "delightful",
-          "corner",
-          "rain",
+          "the corner",
+          "the rain",
           "thankfully"
         ]
       },
@@ -258,7 +258,7 @@ const lessons = [
         "correct": "big",
         "options": [
           "early",
-          "friend (male)",
+          "the friend (male)",
           "closed",
           "big"
         ]
@@ -278,36 +278,36 @@ const lessons = [
         "correct": "helps",
         "options": [
           "really",
-          "sleep",
+          "to sleep",
           "in the neighbourhood",
           "helps"
         ]
       },
       {
         "question": "de herfst",
-        "correct": "autumn",
+        "correct": "the autumn",
         "options": [
-          "yesterday",
-          "early",
-          "delightful",
-          "autumn"
+          "my pleasure",
+          "the special offer",
+          "the chair",
+          "the autumn"
         ]
       },
       {
         "question": "de hoek",
-        "correct": "corner",
+        "correct": "the corner",
         "options": [
-          "snows",
-          "straight on",
+          "inside",
           "helps",
-          "corner"
+          "to have a birthday",
+          "the corner"
         ]
       },
       {
         "question": "hoog",
         "correct": "high",
         "options": [
-          "spring",
+          "the spring",
           "snows",
           "without",
           "high"
@@ -318,29 +318,29 @@ const lessons = [
         "correct": "loves",
         "options": [
           "right",
-          "chair",
-          "bicycle",
+          "the chair",
+          "the bicycle",
           "loves"
         ]
       },
       {
         "question": "het ijs",
-        "correct": "ice",
+        "correct": "the ice",
         "options": [
-          "sleep",
-          "weather",
-          "summer",
-          "ice"
+          "closed",
+          "thankfully",
+          "inside",
+          "the ice"
         ]
       },
       {
         "question": "het jaar",
-        "correct": "year",
+        "correct": "the year",
         "options": [
-          "soup",
-          "bus",
+          "the sea",
           "the north",
-          "year"
+          "in the neighbourhood",
+          "the year"
         ]
       },
       {
@@ -348,8 +348,8 @@ const lessons = [
         "correct": "to have a birthday",
         "options": [
           "open",
-          "rain",
-          "girl",
+          "the rain",
+          "the girl",
           "to have a birthday"
         ]
       },
@@ -365,12 +365,12 @@ const lessons = [
       },
       {
         "question": "de jongen",
-        "correct": "boy",
+        "correct": "the boy",
         "options": [
-          "becomes",
-          "friend (female)",
-          "loves",
-          "boy"
+          "sells",
+          "cloudy",
+          "the morning",
+          "the boy"
         ]
       },
       {
@@ -385,22 +385,22 @@ const lessons = [
       },
       {
         "question": "de krant",
-        "correct": "newspaper",
+        "correct": "the newspaper",
         "options": [
-          "boy",
-          "friend (female)",
-          "ice",
-          "newspaper"
+          "the winter",
+          "sells",
+          "right",
+          "the newspaper"
         ]
       },
       {
         "question": "de lente",
-        "correct": "spring",
+        "correct": "the spring",
         "options": [
-          "loves",
           "the north",
-          "delivers",
-          "spring"
+          "the winter",
+          "the girl",
+          "the spring"
         ]
       },
       {
@@ -408,7 +408,7 @@ const lessons = [
         "correct": "left",
         "options": [
           "the east",
-          "floor",
+          "the floor",
           "closed",
           "left"
         ]
@@ -418,47 +418,47 @@ const lessons = [
   {
     "id": 3,
     "title": "Dutch → English: Words 41–60",
-    "description": "Translate Dutch words to English (loopt → het seizoen)",
+    "description": "Translate Dutch to English (loopt → het seizoen)",
     "type": "multiple-choice",
     "questions": [
       {
         "question": "loopt",
         "correct": "walks",
         "options": [
-          "friend (male)",
-          "ride a bicycle",
+          "the friend (male)",
+          "to cycle",
           "snows",
           "walks"
         ]
       },
       {
         "question": "de maand",
-        "correct": "month",
+        "correct": "the month",
         "options": [
-          "snows",
-          "in the neighbourhood",
-          "so / therefore",
-          "month"
+          "the winter",
+          "early",
+          "yesterday",
+          "the month"
         ]
       },
       {
         "question": "het meisje",
-        "correct": "girl",
+        "correct": "the girl",
         "options": [
-          "outside",
-          "certainly",
-          "right",
-          "girl"
+          "the sea",
+          "cloudy",
+          "yesterday",
+          "the girl"
         ]
       },
       {
         "question": "de mensen",
-        "correct": "people",
+        "correct": "the people",
         "options": [
-          "bus stop",
-          "beach",
-          "high",
-          "people"
+          "closed",
+          "the corner",
+          "really",
+          "the people"
         ]
       },
       {
@@ -467,7 +467,7 @@ const lessons = [
         "options": [
           "the west",
           "turn right",
-          "bicycle",
+          "the bicycle",
           "beautiful"
         ]
       },
@@ -476,19 +476,19 @@ const lessons = [
         "correct": "after",
         "options": [
           "so / therefore",
-          "morning",
+          "the morning",
           "high",
           "after"
         ]
       },
       {
         "question": "de narcis",
-        "correct": "narcissus",
+        "correct": "the narcissus",
         "options": [
-          "turn right",
-          "loves",
-          "bread",
-          "narcissus"
+          "becomes",
+          "the newspaper",
+          "early",
+          "the narcissus"
         ]
       },
       {
@@ -497,18 +497,18 @@ const lessons = [
         "options": [
           "open",
           "excuse me",
-          "corner",
+          "the corner",
           "the north"
         ]
       },
       {
         "question": "de ochtend",
-        "correct": "morning",
+        "correct": "the morning",
         "options": [
-          "door",
-          "closed",
-          "the east",
-          "morning"
+          "high",
+          "the boy",
+          "the summer",
+          "the morning"
         ]
       },
       {
@@ -516,7 +516,7 @@ const lessons = [
         "correct": "the east",
         "options": [
           "in between",
-          "friend (male)",
+          "the friend (male)",
           "high",
           "the east"
         ]
@@ -526,7 +526,7 @@ const lessons = [
         "correct": "open",
         "options": [
           "the east",
-          "year",
+          "the year",
           "after",
           "open"
         ]
@@ -535,8 +535,8 @@ const lessons = [
         "question": "ouder",
         "correct": "older",
         "options": [
-          "arm",
-          "ride a bicycle",
+          "the arm",
+          "to cycle",
           "sells",
           "older"
         ]
@@ -563,12 +563,12 @@ const lessons = [
       },
       {
         "question": "het postkantoor",
-        "correct": "post office",
+        "correct": "the post office",
         "options": [
-          "year",
-          "in between",
-          "right",
-          "post office"
+          "the beach",
+          "the friend (male)",
+          "warm",
+          "the post office"
         ]
       },
       {
@@ -576,7 +576,7 @@ const lessons = [
         "correct": "straight on",
         "options": [
           "near",
-          "ride a bicycle",
+          "to cycle",
           "my pleasure",
           "straight on"
         ]
@@ -585,9 +585,9 @@ const lessons = [
         "question": "rechts",
         "correct": "right",
         "options": [
-          "post office",
+          "the post office",
           "familiar",
-          "sea",
+          "the sea",
           "right"
         ]
       },
@@ -597,28 +597,28 @@ const lessons = [
         "options": [
           "warm",
           "without",
-          "floor",
+          "the floor",
           "turn right"
         ]
       },
       {
         "question": "de regen",
-        "correct": "rain",
+        "correct": "the rain",
         "options": [
-          "thankfully",
-          "bus stop",
-          "straight on",
-          "rain"
+          "the bicycle",
+          "really",
+          "the narcissus",
+          "the rain"
         ]
       },
       {
         "question": "het seizoen",
-        "correct": "season",
+        "correct": "the season",
         "options": [
-          "cloudy",
-          "morning",
-          "door",
-          "season"
+          "the rain",
+          "really",
+          "to sleep",
+          "the season"
         ]
       }
     ]
@@ -626,25 +626,25 @@ const lessons = [
   {
     "id": 4,
     "title": "Dutch → English: Words 61–86",
-    "description": "Translate Dutch words to English (slapen → het zuiden)",
+    "description": "Translate Dutch to English (slapen → het zuiden)",
     "type": "multiple-choice",
     "questions": [
       {
         "question": "slapen",
-        "correct": "sleep",
+        "correct": "to sleep",
         "options": [
-          "the north",
-          "familiar",
-          "friend (male)",
-          "sleep"
+          "the girl",
+          "the door",
+          "the people",
+          "to sleep"
         ]
       },
       {
         "question": "slecht",
         "correct": "bad",
         "options": [
-          "girl",
-          "post office",
+          "the girl",
+          "the post office",
           "cloudy",
           "bad"
         ]
@@ -661,12 +661,12 @@ const lessons = [
       },
       {
         "question": "de soep",
-        "correct": "soup",
+        "correct": "the soup",
         "options": [
-          "thousand",
-          "cold",
-          "bed",
-          "soup"
+          "the ice",
+          "the friend (female)",
+          "the summer",
+          "the soup"
         ]
       },
       {
@@ -674,37 +674,37 @@ const lessons = [
         "correct": "sometimes",
         "options": [
           "delivers",
-          "bus stop",
+          "the bus stop",
           "closed",
           "sometimes"
         ]
       },
       {
         "question": "de stoel",
-        "correct": "chair",
+        "correct": "the chair",
         "options": [
-          "door",
-          "inside",
-          "wind",
-          "chair"
+          "familiar",
+          "far",
+          "the west",
+          "the chair"
         ]
       },
       {
         "question": "het strand",
-        "correct": "beach",
+        "correct": "the beach",
         "options": [
-          "bicycle",
-          "the other side",
-          "spring",
-          "beach"
+          "the newspaper",
+          "bad",
+          "the bus",
+          "the beach"
         ]
       },
       {
         "question": "tussen",
         "correct": "in between",
         "options": [
-          "friend (male)",
-          "floor",
+          "the friend (male)",
+          "the floor",
           "bad",
           "in between"
         ]
@@ -713,50 +713,50 @@ const lessons = [
         "question": "ver",
         "correct": "far",
         "options": [
-          "sun",
+          "the sun",
           "sometimes",
-          "special offer",
+          "the special offer",
           "far"
         ]
       },
       {
         "question": "de verdieping",
-        "correct": "floor",
+        "correct": "the floor",
         "options": [
-          "arm",
-          "morning",
-          "outside",
-          "floor"
+          "the girl",
+          "to have a birthday",
+          "early",
+          "the floor"
         ]
       },
       {
         "question": "verkoopt",
         "correct": "sells",
         "options": [
-          "sea",
+          "the sea",
           "in between",
-          "ride a bicycle",
+          "to cycle",
           "sells"
         ]
       },
       {
         "question": "de vriend",
-        "correct": "friend (male)",
+        "correct": "the friend (male)",
         "options": [
-          "bed",
-          "familiar",
-          "without",
-          "friend (male)"
+          "the friend (female)",
+          "near",
+          "big",
+          "the friend (male)"
         ]
       },
       {
         "question": "de vriendin",
-        "correct": "friend (female)",
+        "correct": "the friend (female)",
         "options": [
-          "delightful",
+          "the beach",
           "familiar",
-          "season",
-          "friend (female)"
+          "the south",
+          "the friend (female)"
         ]
       },
       {
@@ -774,7 +774,7 @@ const lessons = [
         "correct": "where to",
         "options": [
           "older",
-          "sleep",
+          "to sleep",
           "cold",
           "where to"
         ]
@@ -785,18 +785,18 @@ const lessons = [
         "options": [
           "older",
           "my pleasure",
-          "beach",
+          "the beach",
           "warm"
         ]
       },
       {
         "question": "het weer",
-        "correct": "weather",
+        "correct": "the weather",
         "options": [
-          "winter",
-          "sometimes",
           "turn right",
-          "weather"
+          "left",
+          "closed",
+          "the weather"
         ]
       },
       {
@@ -805,68 +805,68 @@ const lessons = [
         "options": [
           "really",
           "certainly",
-          "bicycle",
+          "the bicycle",
           "the west"
         ]
       },
       {
         "question": "de wind",
-        "correct": "wind",
+        "correct": "the wind",
         "options": [
-          "straight on",
-          "door",
-          "high",
-          "wind"
+          "the chair",
+          "the morning",
+          "delightful",
+          "the wind"
         ]
       },
       {
         "question": "de winter",
-        "correct": "winter",
+        "correct": "the winter",
         "options": [
-          "snows",
-          "ride a bicycle",
-          "early",
-          "winter"
+          "bad",
+          "the corner",
+          "the chair",
+          "the winter"
         ]
       },
       {
         "question": "wordt",
         "correct": "becomes",
         "options": [
-          "summer",
-          "post office",
+          "the summer",
+          "the post office",
           "beautiful",
           "becomes"
         ]
       },
       {
         "question": "de zee",
-        "correct": "sea",
+        "correct": "the sea",
         "options": [
-          "warm",
-          "certainly",
-          "weather",
-          "sea"
+          "really",
+          "big",
+          "sells",
+          "the sea"
         ]
       },
       {
         "question": "de zomer",
-        "correct": "summer",
+        "correct": "the summer",
         "options": [
-          "friend (female)",
-          "spring",
-          "people",
-          "summer"
+          "the beach",
+          "to have a birthday",
+          "in the neighbourhood",
+          "the summer"
         ]
       },
       {
         "question": "de zon",
-        "correct": "sun",
+        "correct": "the sun",
         "options": [
-          "morning",
-          "door",
-          "delightful",
-          "sun"
+          "the month",
+          "the bus",
+          "big",
+          "the sun"
         ]
       },
       {
@@ -894,11 +894,11 @@ const lessons = [
   {
     "id": 5,
     "title": "English → Dutch: Words 1–20",
-    "description": "Translate English words to Dutch (de agenda → de fiets)",
+    "description": "Translate English to Dutch (de agenda → de fiets)",
     "type": "multiple-choice",
     "questions": [
       {
-        "question": "agenda",
+        "question": "the agenda",
         "correct": "de agenda",
         "options": [
           "fietsen",
@@ -908,7 +908,7 @@ const lessons = [
         ]
       },
       {
-        "question": "special offer",
+        "question": "the special offer",
         "correct": "de aanbieding",
         "options": [
           "de lente",
@@ -918,7 +918,7 @@ const lessons = [
         ]
       },
       {
-        "question": "arm",
+        "question": "the arm",
         "correct": "de arm",
         "options": [
           "dichtbij",
@@ -928,7 +928,7 @@ const lessons = [
         ]
       },
       {
-        "question": "bed",
+        "question": "the bed",
         "correct": "het bed",
         "options": [
           "het ijs",
@@ -978,7 +978,7 @@ const lessons = [
         ]
       },
       {
-        "question": "bread",
+        "question": "the bread",
         "correct": "het brood",
         "options": [
           "duizend",
@@ -998,7 +998,7 @@ const lessons = [
         ]
       },
       {
-        "question": "bus",
+        "question": "the bus",
         "correct": "de bus",
         "options": [
           "dichtbij",
@@ -1008,7 +1008,7 @@ const lessons = [
         ]
       },
       {
-        "question": "bus stop",
+        "question": "the bus stop",
         "correct": "de bushalte",
         "options": [
           "wordt",
@@ -1028,7 +1028,7 @@ const lessons = [
         ]
       },
       {
-        "question": "door",
+        "question": "the door",
         "correct": "de deur",
         "options": [
           "pardon",
@@ -1088,7 +1088,7 @@ const lessons = [
         ]
       },
       {
-        "question": "bicycle",
+        "question": "the bicycle",
         "correct": "de fiets",
         "options": [
           "buiten",
@@ -1102,11 +1102,11 @@ const lessons = [
   {
     "id": 6,
     "title": "English → Dutch: Words 21–40",
-    "description": "Translate English words to Dutch (fietsen → links)",
+    "description": "Translate English to Dutch (fietsen → links)",
     "type": "multiple-choice",
     "questions": [
       {
-        "question": "ride a bicycle",
+        "question": "to cycle",
         "correct": "fietsen",
         "options": [
           "slapen",
@@ -1176,7 +1176,7 @@ const lessons = [
         ]
       },
       {
-        "question": "autumn",
+        "question": "the autumn",
         "correct": "de herfst",
         "options": [
           "het seizoen",
@@ -1186,7 +1186,7 @@ const lessons = [
         ]
       },
       {
-        "question": "corner",
+        "question": "the corner",
         "correct": "de hoek",
         "options": [
           "de winter",
@@ -1216,7 +1216,7 @@ const lessons = [
         ]
       },
       {
-        "question": "ice",
+        "question": "the ice",
         "correct": "het ijs",
         "options": [
           "de deur",
@@ -1226,7 +1226,7 @@ const lessons = [
         ]
       },
       {
-        "question": "year",
+        "question": "the year",
         "correct": "het jaar",
         "options": [
           "het weer",
@@ -1256,7 +1256,7 @@ const lessons = [
         ]
       },
       {
-        "question": "boy",
+        "question": "the boy",
         "correct": "de jongen",
         "options": [
           "het westen",
@@ -1276,7 +1276,7 @@ const lessons = [
         ]
       },
       {
-        "question": "newspaper",
+        "question": "the newspaper",
         "correct": "de krant",
         "options": [
           "dichtbij",
@@ -1286,7 +1286,7 @@ const lessons = [
         ]
       },
       {
-        "question": "spring",
+        "question": "the spring",
         "correct": "de lente",
         "options": [
           "het noorden",
@@ -1310,7 +1310,7 @@ const lessons = [
   {
     "id": 7,
     "title": "English → Dutch: Words 41–60",
-    "description": "Translate English words to Dutch (loopt → het seizoen)",
+    "description": "Translate English to Dutch (loopt → het seizoen)",
     "type": "multiple-choice",
     "questions": [
       {
@@ -1324,7 +1324,7 @@ const lessons = [
         ]
       },
       {
-        "question": "month",
+        "question": "the month",
         "correct": "de maand",
         "options": [
           "het strand",
@@ -1334,7 +1334,7 @@ const lessons = [
         ]
       },
       {
-        "question": "girl",
+        "question": "the girl",
         "correct": "het meisje",
         "options": [
           "koud",
@@ -1344,7 +1344,7 @@ const lessons = [
         ]
       },
       {
-        "question": "people",
+        "question": "the people",
         "correct": "de mensen",
         "options": [
           "vroeg",
@@ -1374,7 +1374,7 @@ const lessons = [
         ]
       },
       {
-        "question": "narcissus",
+        "question": "the narcissus",
         "correct": "de narcis",
         "options": [
           "in de buurt",
@@ -1394,7 +1394,7 @@ const lessons = [
         ]
       },
       {
-        "question": "morning",
+        "question": "the morning",
         "correct": "de ochtend",
         "options": [
           "groot",
@@ -1454,7 +1454,7 @@ const lessons = [
         ]
       },
       {
-        "question": "post office",
+        "question": "the post office",
         "correct": "het postkantoor",
         "options": [
           "de jongen",
@@ -1494,7 +1494,7 @@ const lessons = [
         ]
       },
       {
-        "question": "rain",
+        "question": "the rain",
         "correct": "de regen",
         "options": [
           "de hoek",
@@ -1504,7 +1504,7 @@ const lessons = [
         ]
       },
       {
-        "question": "season",
+        "question": "the season",
         "correct": "het seizoen",
         "options": [
           "de fiets",
@@ -1518,11 +1518,11 @@ const lessons = [
   {
     "id": 8,
     "title": "English → Dutch: Words 61–86",
-    "description": "Translate English words to Dutch (slapen → het zuiden)",
+    "description": "Translate English to Dutch (slapen → het zuiden)",
     "type": "multiple-choice",
     "questions": [
       {
-        "question": "sleep",
+        "question": "to sleep",
         "correct": "slapen",
         "options": [
           "de agenda",
@@ -1552,7 +1552,7 @@ const lessons = [
         ]
       },
       {
-        "question": "soup",
+        "question": "the soup",
         "correct": "de soep",
         "options": [
           "mooi",
@@ -1572,7 +1572,7 @@ const lessons = [
         ]
       },
       {
-        "question": "chair",
+        "question": "the chair",
         "correct": "de stoel",
         "options": [
           "sneeuwt",
@@ -1582,7 +1582,7 @@ const lessons = [
         ]
       },
       {
-        "question": "beach",
+        "question": "the beach",
         "correct": "het strand",
         "options": [
           "de zomer",
@@ -1612,7 +1612,7 @@ const lessons = [
         ]
       },
       {
-        "question": "floor",
+        "question": "the floor",
         "correct": "de verdieping",
         "options": [
           "het ijs",
@@ -1632,7 +1632,7 @@ const lessons = [
         ]
       },
       {
-        "question": "friend (male)",
+        "question": "the friend (male)",
         "correct": "de vriend",
         "options": [
           "brengt rond",
@@ -1642,7 +1642,7 @@ const lessons = [
         ]
       },
       {
-        "question": "friend (female)",
+        "question": "the friend (female)",
         "correct": "de vriendin",
         "options": [
           "jarig",
@@ -1682,7 +1682,7 @@ const lessons = [
         ]
       },
       {
-        "question": "weather",
+        "question": "the weather",
         "correct": "het weer",
         "options": [
           "rechts",
@@ -1702,7 +1702,7 @@ const lessons = [
         ]
       },
       {
-        "question": "wind",
+        "question": "the wind",
         "correct": "de wind",
         "options": [
           "de vriend",
@@ -1712,7 +1712,7 @@ const lessons = [
         ]
       },
       {
-        "question": "winter",
+        "question": "the winter",
         "correct": "de winter",
         "options": [
           "de ochtend",
@@ -1732,7 +1732,7 @@ const lessons = [
         ]
       },
       {
-        "question": "sea",
+        "question": "the sea",
         "correct": "de zee",
         "options": [
           "het zuiden",
@@ -1742,7 +1742,7 @@ const lessons = [
         ]
       },
       {
-        "question": "summer",
+        "question": "the summer",
         "correct": "de zomer",
         "options": [
           "helpt",
@@ -1752,7 +1752,7 @@ const lessons = [
         ]
       },
       {
-        "question": "sun",
+        "question": "the sun",
         "correct": "de zon",
         "options": [
           "de overkant",
@@ -1791,19 +1791,19 @@ const lessons = [
     "questions": [
       {
         "question": "de agenda",
-        "correct": "agenda"
+        "correct": "the agenda"
       },
       {
         "question": "de aanbieding",
-        "correct": "special offer"
+        "correct": "the special offer"
       },
       {
         "question": "de arm",
-        "correct": "arm"
+        "correct": "the arm"
       },
       {
         "question": "het bed",
-        "correct": "bed"
+        "correct": "the bed"
       },
       {
         "question": "bekend",
@@ -1823,7 +1823,7 @@ const lessons = [
       },
       {
         "question": "het brood",
-        "correct": "bread"
+        "correct": "the bread"
       },
       {
         "question": "buiten",
@@ -1831,11 +1831,11 @@ const lessons = [
       },
       {
         "question": "de bus",
-        "correct": "bus"
+        "correct": "the bus"
       },
       {
         "question": "de bushalte",
-        "correct": "bus stop"
+        "correct": "the bus stop"
       },
       {
         "question": "in de buurt",
@@ -1843,7 +1843,7 @@ const lessons = [
       },
       {
         "question": "de deur",
-        "correct": "door"
+        "correct": "the door"
       },
       {
         "question": "dicht",
@@ -1867,11 +1867,11 @@ const lessons = [
       },
       {
         "question": "de fiets",
-        "correct": "bicycle"
+        "correct": "the bicycle"
       },
       {
         "question": "fietsen",
-        "correct": "ride a bicycle"
+        "correct": "to cycle"
       },
       {
         "question": "geen dank",
@@ -1899,11 +1899,11 @@ const lessons = [
       },
       {
         "question": "de herfst",
-        "correct": "autumn"
+        "correct": "the autumn"
       },
       {
         "question": "de hoek",
-        "correct": "corner"
+        "correct": "the corner"
       },
       {
         "question": "hoog",
@@ -1915,11 +1915,11 @@ const lessons = [
       },
       {
         "question": "het ijs",
-        "correct": "ice"
+        "correct": "the ice"
       },
       {
         "question": "het jaar",
-        "correct": "year"
+        "correct": "the year"
       },
       {
         "question": "jarig",
@@ -1931,7 +1931,7 @@ const lessons = [
       },
       {
         "question": "de jongen",
-        "correct": "boy"
+        "correct": "the boy"
       },
       {
         "question": "koud",
@@ -1939,11 +1939,11 @@ const lessons = [
       },
       {
         "question": "de krant",
-        "correct": "newspaper"
+        "correct": "the newspaper"
       },
       {
         "question": "de lente",
-        "correct": "spring"
+        "correct": "the spring"
       },
       {
         "question": "links",
@@ -1955,15 +1955,15 @@ const lessons = [
       },
       {
         "question": "de maand",
-        "correct": "month"
+        "correct": "the month"
       },
       {
         "question": "het meisje",
-        "correct": "girl"
+        "correct": "the girl"
       },
       {
         "question": "de mensen",
-        "correct": "people"
+        "correct": "the people"
       },
       {
         "question": "mooi",
@@ -1975,7 +1975,7 @@ const lessons = [
       },
       {
         "question": "de narcis",
-        "correct": "narcissus"
+        "correct": "the narcissus"
       },
       {
         "question": "het noorden",
@@ -1983,7 +1983,7 @@ const lessons = [
       },
       {
         "question": "de ochtend",
-        "correct": "morning"
+        "correct": "the morning"
       },
       {
         "question": "het oosten",
@@ -2007,7 +2007,7 @@ const lessons = [
       },
       {
         "question": "het postkantoor",
-        "correct": "post office"
+        "correct": "the post office"
       },
       {
         "question": "rechtdoor",
@@ -2023,15 +2023,15 @@ const lessons = [
       },
       {
         "question": "de regen",
-        "correct": "rain"
+        "correct": "the rain"
       },
       {
         "question": "het seizoen",
-        "correct": "season"
+        "correct": "the season"
       },
       {
         "question": "slapen",
-        "correct": "sleep"
+        "correct": "to sleep"
       },
       {
         "question": "slecht",
@@ -2043,7 +2043,7 @@ const lessons = [
       },
       {
         "question": "de soep",
-        "correct": "soup"
+        "correct": "the soup"
       },
       {
         "question": "soms",
@@ -2051,11 +2051,11 @@ const lessons = [
       },
       {
         "question": "de stoel",
-        "correct": "chair"
+        "correct": "the chair"
       },
       {
         "question": "het strand",
-        "correct": "beach"
+        "correct": "the beach"
       },
       {
         "question": "tussen",
@@ -2067,7 +2067,7 @@ const lessons = [
       },
       {
         "question": "de verdieping",
-        "correct": "floor"
+        "correct": "the floor"
       },
       {
         "question": "verkoopt",
@@ -2075,11 +2075,11 @@ const lessons = [
       },
       {
         "question": "de vriend",
-        "correct": "friend (male)"
+        "correct": "the friend (male)"
       },
       {
         "question": "de vriendin",
-        "correct": "friend (female)"
+        "correct": "the friend (female)"
       },
       {
         "question": "vroeg",
@@ -2095,7 +2095,7 @@ const lessons = [
       },
       {
         "question": "het weer",
-        "correct": "weather"
+        "correct": "the weather"
       },
       {
         "question": "het westen",
@@ -2103,11 +2103,11 @@ const lessons = [
       },
       {
         "question": "de wind",
-        "correct": "wind"
+        "correct": "the wind"
       },
       {
         "question": "de winter",
-        "correct": "winter"
+        "correct": "the winter"
       },
       {
         "question": "wordt",
@@ -2115,15 +2115,15 @@ const lessons = [
       },
       {
         "question": "de zee",
-        "correct": "sea"
+        "correct": "the sea"
       },
       {
         "question": "de zomer",
-        "correct": "summer"
+        "correct": "the summer"
       },
       {
         "question": "de zon",
-        "correct": "sun"
+        "correct": "the sun"
       },
       {
         "question": "zonder",
@@ -2145,19 +2145,19 @@ const lessons = [
         "pairs": [
           {
             "dutch": "de agenda",
-            "english": "agenda"
+            "english": "the agenda"
           },
           {
             "dutch": "de aanbieding",
-            "english": "special offer"
+            "english": "the special offer"
           },
           {
             "dutch": "de arm",
-            "english": "arm"
+            "english": "the arm"
           },
           {
             "dutch": "het bed",
-            "english": "bed"
+            "english": "the bed"
           }
         ]
       },
@@ -2185,7 +2185,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "het brood",
-            "english": "bread"
+            "english": "the bread"
           },
           {
             "dutch": "buiten",
@@ -2193,11 +2193,11 @@ const lessons = [
           },
           {
             "dutch": "de bus",
-            "english": "bus"
+            "english": "the bus"
           },
           {
             "dutch": "de bushalte",
-            "english": "bus stop"
+            "english": "the bus stop"
           }
         ]
       },
@@ -2209,7 +2209,7 @@ const lessons = [
           },
           {
             "dutch": "de deur",
-            "english": "door"
+            "english": "the door"
           },
           {
             "dutch": "dicht",
@@ -2237,7 +2237,7 @@ const lessons = [
           },
           {
             "dutch": "de fiets",
-            "english": "bicycle"
+            "english": "the bicycle"
           }
         ]
       },
@@ -2245,7 +2245,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "fietsen",
-            "english": "ride a bicycle"
+            "english": "to cycle"
           },
           {
             "dutch": "geen dank",
@@ -2277,7 +2277,7 @@ const lessons = [
           },
           {
             "dutch": "de herfst",
-            "english": "autumn"
+            "english": "the autumn"
           }
         ]
       },
@@ -2285,7 +2285,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "de hoek",
-            "english": "corner"
+            "english": "the corner"
           },
           {
             "dutch": "hoog",
@@ -2297,7 +2297,7 @@ const lessons = [
           },
           {
             "dutch": "het ijs",
-            "english": "ice"
+            "english": "the ice"
           }
         ]
       },
@@ -2305,7 +2305,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "het jaar",
-            "english": "year"
+            "english": "the year"
           },
           {
             "dutch": "jarig",
@@ -2317,7 +2317,7 @@ const lessons = [
           },
           {
             "dutch": "de jongen",
-            "english": "boy"
+            "english": "the boy"
           }
         ]
       },
@@ -2329,11 +2329,11 @@ const lessons = [
           },
           {
             "dutch": "de krant",
-            "english": "newspaper"
+            "english": "the newspaper"
           },
           {
             "dutch": "de lente",
-            "english": "spring"
+            "english": "the spring"
           },
           {
             "dutch": "links",
@@ -2349,15 +2349,15 @@ const lessons = [
           },
           {
             "dutch": "de maand",
-            "english": "month"
+            "english": "the month"
           },
           {
             "dutch": "het meisje",
-            "english": "girl"
+            "english": "the girl"
           },
           {
             "dutch": "de mensen",
-            "english": "people"
+            "english": "the people"
           }
         ]
       },
@@ -2373,7 +2373,7 @@ const lessons = [
           },
           {
             "dutch": "de narcis",
-            "english": "narcissus"
+            "english": "the narcissus"
           },
           {
             "dutch": "het noorden",
@@ -2385,7 +2385,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "de ochtend",
-            "english": "morning"
+            "english": "the morning"
           },
           {
             "dutch": "het oosten",
@@ -2413,7 +2413,7 @@ const lessons = [
           },
           {
             "dutch": "het postkantoor",
-            "english": "post office"
+            "english": "the post office"
           },
           {
             "dutch": "rechtdoor",
@@ -2433,11 +2433,11 @@ const lessons = [
           },
           {
             "dutch": "de regen",
-            "english": "rain"
+            "english": "the rain"
           },
           {
             "dutch": "het seizoen",
-            "english": "season"
+            "english": "the season"
           }
         ]
       },
@@ -2445,7 +2445,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "slapen",
-            "english": "sleep"
+            "english": "to sleep"
           },
           {
             "dutch": "slecht",
@@ -2457,7 +2457,7 @@ const lessons = [
           },
           {
             "dutch": "de soep",
-            "english": "soup"
+            "english": "the soup"
           }
         ]
       },
@@ -2469,11 +2469,11 @@ const lessons = [
           },
           {
             "dutch": "de stoel",
-            "english": "chair"
+            "english": "the chair"
           },
           {
             "dutch": "het strand",
-            "english": "beach"
+            "english": "the beach"
           },
           {
             "dutch": "tussen",
@@ -2489,7 +2489,7 @@ const lessons = [
           },
           {
             "dutch": "de verdieping",
-            "english": "floor"
+            "english": "the floor"
           },
           {
             "dutch": "verkoopt",
@@ -2497,7 +2497,7 @@ const lessons = [
           },
           {
             "dutch": "de vriend",
-            "english": "friend (male)"
+            "english": "the friend (male)"
           }
         ]
       },
@@ -2505,7 +2505,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "de vriendin",
-            "english": "friend (female)"
+            "english": "the friend (female)"
           },
           {
             "dutch": "vroeg",
@@ -2525,7 +2525,7 @@ const lessons = [
         "pairs": [
           {
             "dutch": "het weer",
-            "english": "weather"
+            "english": "the weather"
           },
           {
             "dutch": "het westen",
@@ -2533,11 +2533,11 @@ const lessons = [
           },
           {
             "dutch": "de wind",
-            "english": "wind"
+            "english": "the wind"
           },
           {
             "dutch": "de winter",
-            "english": "winter"
+            "english": "the winter"
           }
         ]
       },
@@ -2549,15 +2549,15 @@ const lessons = [
           },
           {
             "dutch": "de zee",
-            "english": "sea"
+            "english": "the sea"
           },
           {
             "dutch": "de zomer",
-            "english": "summer"
+            "english": "the summer"
           },
           {
             "dutch": "de zon",
-            "english": "sun"
+            "english": "the sun"
           },
           {
             "dutch": "zonder",
@@ -2579,11 +2579,11 @@ const lessons = [
     "questions": [
       {
         "dutch": "het brood",
-        "hint": "(bread)"
+        "hint": "(the bread)"
       },
       {
         "dutch": "de fiets",
-        "hint": "(bicycle)"
+        "hint": "(the bicycle)"
       },
       {
         "dutch": "gisteren",
@@ -2591,15 +2591,15 @@ const lessons = [
       },
       {
         "dutch": "de herfst",
-        "hint": "(autumn)"
+        "hint": "(the autumn)"
       },
       {
         "dutch": "het jaar",
-        "hint": "(year)"
+        "hint": "(the year)"
       },
       {
         "dutch": "de jongen",
-        "hint": "(boy)"
+        "hint": "(the boy)"
       },
       {
         "dutch": "koud",
@@ -2607,51 +2607,51 @@ const lessons = [
       },
       {
         "dutch": "de krant",
-        "hint": "(newspaper)"
+        "hint": "(the newspaper)"
       },
       {
         "dutch": "de lente",
-        "hint": "(spring)"
+        "hint": "(the spring)"
       },
       {
         "dutch": "het meisje",
-        "hint": "(girl)"
+        "hint": "(the girl)"
       },
       {
         "dutch": "de ochtend",
-        "hint": "(morning)"
+        "hint": "(the morning)"
       },
       {
         "dutch": "de regen",
-        "hint": "(rain)"
+        "hint": "(the rain)"
       },
       {
         "dutch": "het strand",
-        "hint": "(beach)"
+        "hint": "(the beach)"
       },
       {
         "dutch": "de zon",
-        "hint": "(sun)"
+        "hint": "(the sun)"
       },
       {
         "dutch": "de zee",
-        "hint": "(sea)"
+        "hint": "(the sea)"
       },
       {
         "dutch": "de winter",
-        "hint": "(winter)"
+        "hint": "(the winter)"
       },
       {
         "dutch": "de zomer",
-        "hint": "(summer)"
+        "hint": "(the summer)"
       },
       {
         "dutch": "het weer",
-        "hint": "(weather)"
+        "hint": "(the weather)"
       },
       {
         "dutch": "de wind",
-        "hint": "(wind)"
+        "hint": "(the wind)"
       },
       {
         "dutch": "warm",
@@ -2884,17 +2884,6 @@ const lessons = [
         ]
       },
       {
-        "before": "Ze loopt naar",
-        "after": "om groenten te kopen.",
-        "correct": "de markt",
-        "options": [
-          "de markt",
-          "het ijs",
-          "de arm",
-          "het zuiden"
-        ]
-      },
-      {
         "before": "Ik was",
         "after": "wakker, al om zes uur.",
         "correct": "vroeg",
@@ -3016,17 +3005,6 @@ const lessons = [
         ]
       },
       {
-        "before": "Het",
-        "after": "is heel oud: hij is al 86 jaar.",
-        "correct": "jaar",
-        "options": [
-          "jaar",
-          "bed",
-          "ijs",
-          "strand"
-        ]
-      },
-      {
         "before": "Ga je zaterdag mee naar",
         "after": "? Lekker zwemmen!",
         "correct": "het strand",
@@ -3038,7 +3016,7 @@ const lessons = [
         ]
       },
       {
-        "before": "Na het eten drink ik altijd een kopje koffie, ook",
+        "before": "Na het eten drink ik altijd een kopje koffie,",
         "after": "als ik moe ben.",
         "correct": "soms",
         "options": [
@@ -3093,17 +3071,6 @@ const lessons = [
         ]
       },
       {
-        "before": "Ze helpt haar zoontje",
-        "after": "met zijn huiswerk.",
-        "correct": "gelukkig",
-        "options": [
-          "gelukkig",
-          "gisteren",
-          "soms",
-          "vroeg"
-        ]
-      },
-      {
         "before": "In de",
         "after": "is het vaak koud en soms sneeuwt het.",
         "correct": "winter",
@@ -3123,6 +3090,39 @@ const lessons = [
           "wind",
           "regen",
           "zee"
+        ]
+      },
+      {
+        "before": "Ze helpt haar zoontje",
+        "after": "met zijn huiswerk.",
+        "correct": "gelukkig",
+        "options": [
+          "gelukkig",
+          "gisteren",
+          "soms",
+          "vroeg"
+        ]
+      },
+      {
+        "before": "Hij woont heel",
+        "after": "op de twintigste verdieping.",
+        "correct": "hoog",
+        "options": [
+          "hoog",
+          "ver",
+          "groot",
+          "dichtbij"
+        ]
+      },
+      {
+        "before": "Het is",
+        "after": "weer: regen, wind en kou.",
+        "correct": "slecht",
+        "options": [
+          "slecht",
+          "mooi",
+          "heerlijk",
+          "bewolkt"
         ]
       }
     ]

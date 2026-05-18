@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <div className="app">
       <header className="hero">
-        <h1>Learn Dutch 🇳🇱</h1>
-        <p>Interactive Dutch lessons — 86 words, 13 lessons</p>
+        <h1>Learn Dutch</h1>
+        <p>Interactive Dutch lessons for miss Sgod</p>
       </header>
 
       <section className="lesson-section">
@@ -52,9 +52,9 @@ export default function Home() {
                 {typeLabels[lesson.type] || lesson.type}
               </div>
 
-              <h3 style={{ margin: '0 0 6px', color: '#000' }}>
+              <h4 style={{ margin: '0 0 6px', color: '#000' }}>
                 Lesson {lesson.id}
-              </h3>
+              </h4>
 
               <p style={{ margin: 0, color: '#444', fontSize: '0.9rem' }}>
                 {lesson.title}
